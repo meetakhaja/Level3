@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 65px;
+}
+#header-left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+#header-right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#header-right h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+#mainheading {
+  padding: 45px 65px;
+  margin-top: 10px;
+  width: 100%;
+}
+#mainheading h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+#mainheading h1 {
+  padding: 25px 0px;
+  font-size: 120px;
+  font-weight: 500;
+  letter-spacing: -6px;
+  word-spacing: 4px;
+  line-height: 120px;
+}
+#case-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 45px 65px;
+  padding-top: 60px;
+}
+#case-heading h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+#case-heading1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#case-heading1-line {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+}
+#case-heading1 h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+#case {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 65px;
+  gap: 80px;
+}
+.elem {
+  width: 100%;
+}
+.case-image {
+  height: 550px;
+  width: 100%;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+}
+#img1 {
+  background-image: url(https://i.pinimg.com/736x/27/ee/4a/27ee4a0d1d9c2dc24d8b481d0c61670a.jpg);
+}
+#img2 {
+  background-image: url(https://i.pinimg.com/736x/c6/a0/3c/c6a03ca26f6a5fd26ea4d47837137e48.jpg);
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+.bottom h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.bottom h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.bottom i {
+  font-size: 30px;
+  font-weight: 600;
+  border: 2px solid black;
+  padding: 8px 16px;
+  border-radius: 25px;
+}
+.bottom i:hover {
+  background-color: black;
+  color: white;
+}
